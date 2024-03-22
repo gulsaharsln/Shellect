@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test shell",
+      "setup": "rm -r build; mkdir build; cd build; cmake ..; make shellect",
+      "run": "echo 'exit' | ./build/shellect",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 20,
+      "points": null
+    }
+  ]
+}
